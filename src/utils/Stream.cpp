@@ -33,9 +33,9 @@ Stream::~Stream()
 {
 }
 
-void Stream::dumbEntries()
+void Stream::dumpEntries()
 {
-    this->dumbDictEntries();
+    this->dumpDictEntries();
 }
 
 uint32_t Stream::getFourCC()

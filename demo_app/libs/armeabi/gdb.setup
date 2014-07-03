@@ -1,0 +1,2 @@
+set solib-search-path /Users/brainer/Documents/workspace/mobileDASHEncoder/obj/local/armeabi
+directory /Users/brainer/android-sdks/ndks/android-ndk-r8b/platforms/android-14/arch-arm/usr/include /Users/brainer/Documents/workspace/mobileDASHEncoder/jni /Users/brainer/Documents/workspace/mobileDASHEncoder/jni/mobileDASHEncoder/include /Users/brainer/android-sdks/ndks/android-ndk-r8b/sources/cxx-stl/stlport/stlport /Users/brainer/android-sdks/ndks/android-ndk-r8b/sources/cxx-stl//gabi++/include /Users/brainer/Documents/workspace/mobileDASHEncoder/jni/include

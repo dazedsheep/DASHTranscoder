@@ -58,8 +58,8 @@ public:
     
     void setSamples(std::vector<Sample*> *_s);
     Sample *getSample(uint32_t sample);
-    /* Debug dumb */
-    void dumbEntries();
+   
+    void dumpEntries();
 };
 
 #endif

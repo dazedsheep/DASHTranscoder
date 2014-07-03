@@ -1,0 +1,17 @@
+IMPORTANT:
+
+BEFORE YOU FOLLOW THE STEPS BELOW, BE SURE THAT YOU HAVE INSTALLED ECLIPSE AND THE ADT PLUGIN + ANDROID SDKS AND THE APPROPRIATE NDK.
+
+-----------------
+Compiling and Building the Demo Application for the mobil DASH Encoder and running it. (using Eclipse)
+-----------------
+
+1. Copy the source code located at src/ and the includes located at include/ to demo_app/jni/mobileDASHEncoder/
+2. Start Eclipse and import the project located in the folder demp_app into your workspace.
+3. Make sure you have downloaded and installed the appropriate NDK for Android.
+4. Configure the project for the NDK builder. (by adding a new Builder in the section "Builders", you will have to point it to the directory: YOUR/NDK/PATH/NDK_VERSION/ndk-build)
+5. Build the application!
+
+6. In order to play the stream that is recorded with the mobile device use one of the existing DASH capable players. We refer here to http://dash.itec.aau.at
+
+If there are any question regarding the software, please contact us at: dash@itec.uni-klu.ac.at

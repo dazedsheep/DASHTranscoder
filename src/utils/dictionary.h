@@ -49,7 +49,7 @@ public:
     int32_t addDictStr(uint8_t *entry_name, uint8_t* value);
     #include "dictionary.hpp"
     
-    /* Debug dumb */
-    void dumbDictEntries();
+    /* Debug dumpb */
+    void dumpDictEntries();
 };
 #endif

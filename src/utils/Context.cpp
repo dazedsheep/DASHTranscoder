@@ -80,11 +80,11 @@ int32_t Context::size()
     return (currentStream + 1);
 }
 
-void Context::dumbEntriesOfStreams()
+void Context::dumpEntriesOfStreams()
 {
     std::vector<Stream *>::iterator it;
     for(it = streams.begin(); it != streams.end(); ++it)
     {
-        (*it)->dumbEntries();
+        (*it)->dumpEntries();
     }
 }

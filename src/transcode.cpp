@@ -63,11 +63,11 @@ transcode::~transcode()
     
 }
 
-void transcode::dumbToFile(uint8_t *fileName, int32_t fd)
+void transcode::dumpToFile(uint8_t *fileName, int32_t fd)
 {
     uint8_t data;
     fdinout fn(std::string((char*)fileName),true);
-    mde_log(MDE_LOG_DEBUG, "Dumbing stream to file %s.\n", fileName);
+    mde_log(MDE_LOG_DEBUG, "Dumping stream to file %s.\n", fileName);
     do{
         data = sys_rb8((IBuffer*)buffer);
         fn.put(&data, 1);
@@ -111,7 +111,7 @@ void transcode::startwithSetupFile()
     
 }
 
-void transcode::dumb()
+void transcode::dump()
 {
 
 }

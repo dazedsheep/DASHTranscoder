@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DASHEncoder</string>
+    <string name="title_activity_splash_screen">MyMedia</string>
+    <string name="action_settings">Settings</string>
+    <string name="context_button_connect">Connect</string>
+    <string name="context_button_stream">Stream</string>
+    <string name="context_button_share">Share</string>
+    <string name="action_connect">Connect</string>
+    <string name="handler_connect">connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connecting_cancelled">Connecting cancelled.</string>
+    <string name="servermovies">Video Server</string>
+    <string name="servermovies_description">Public videos on MyMedia server</string>
+    <string name="handler_stream">stream</string>
+    <string name="handler_network">showNetwork</string>
+    <string name="action_connect_manually">Connect Manually</string>
+    <string name="networkinfo">Networking</string>
+    <string name="networkinfo_description">Various network properties</string>
+    <string name="peerneighbors">Neighbor Peers</string>
+    <string name="peerneighbors_description">Direct connections to other peers</string>
+    <string name="ipaddress">IP Address</string>
+    <string name="wifi">WiFi</string>
+    <string name="wifi_disconnected">Disconnected</string>
+    <string name="hint_ip">127.0.0.1</string>
+    <string name="tcp_port">8000</string>
+    <string name="udp_port">9000</string>
+    <string name="add">Add</string>
+    <string name="tagcloud_usage">Tap to Select</string>
+    <string name="addtag">&lt;Add Tag&gt;</string>
+    <string name="entertag">Enter Tag</string>
+    <string name="ok">Ok</string>
+    <string name="skip">Skip</string>
+    <string name="hint_descriptiontext">Description text...</string>
+    <string name="describe">Additional Text</string>
+    <string name="hint_newtag">New tag...</string>
+    <string name="action_search">Search</string>
+    <string name="handler_search">search</string>
+    <string name="done">Done</string>
+    <string name="refresh">Refresh</string>
+    <string name="searching">Searching...</string>
+    <string name="streams_found">Please select...</string>
+    <string name="nothing_found">Nothing found.</string>
+    <string name="context_button_refresh">Refresh</string>
+    <string name="handler_refresh">refresh</string>
+    <string name="recentlywatched">Recently Watched</string>
+    <string name="recentlywatched_descriptions">Recently watched videos from any source</string>
+    <string name="notavailable">Not Available.</string>
+    <string name="localvideos">Local Videos</string>
+    <string name="localvideos_description">Stored on this device</string>
+    <string name="visualization">Network</string>
+    <string name="handler_visualization">showNetwork</string>
+    <string name="highlight_query">Highlight Query</string>
+    <string name="show_replication">Show Replication</string>
+    <string name="show_peer_info">Show Peer Info</string>
+    <string name="record">Record</string>
+    <string name="serverinfo">MyMedia Server</string>
+    <string name="serverinfo_description">Details on server services like e.g. yellow pages</string>
+    <string name="yellowpages">Yellow Pages</string>
+    <string name="address">Base Address</string>
+    <string name="enter_remotepeer">Remote Peer</string>
+    <string name="enter_server">Enter Address</string>
+
+</resources>

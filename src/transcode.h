@@ -59,11 +59,11 @@ public:
     transcode(std::string fileName, char *baseName, int32_t segmentSizeInSeconds, int32_t fps);
     transcode(int32_t fd, char *baseName, int32_t segmentSizeInSeconds, int32_t fps);
     ~transcode();
-    void dumbToFile(uint8_t *fileName, int32_t fd);
+    void dumpToFile(uint8_t *fileName, int32_t fd);
     void parseSetupFile(const char *fileName);
     void startwithSetupFile();
     void test();
-    void dumb();
+    void dump();
 
     /* thread things */
     void run();

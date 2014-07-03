@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/btLiveSettings"
+          android:icon="@drawable/options"
+          android:title="Settings" >
+    </item>
+    <item android:id="@+id/btLiveStart" android:title="Start"></item>
+    <item android:id="@+id/btLiveStop" android:title="Stop"></item>
+</menu>

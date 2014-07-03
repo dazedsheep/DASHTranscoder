@@ -66,11 +66,11 @@ template<> int32_t dictionary::addDict<uint8_t*>(uint8_t *entry_name, uint8_t* v
     return -1;
 }*/
 
-void dictionary::dumbDictEntries()
+void dictionary::dumpDictEntries()
 {
     std::map<uint8_t *, uint8_t *>::iterator it;
     
-    mde_log(MDE_LOG_DEBUG, "%s: Dumb of entries (no data):\n", __FILE__);
+    mde_log(MDE_LOG_DEBUG, "%s: Dump of entries (no data):\n", __FILE__);
     
     for(it = dict.begin(); it != dict.end(); ++it)
     {

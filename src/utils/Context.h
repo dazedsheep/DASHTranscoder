@@ -49,7 +49,7 @@ public:
     Stream *getStream(uint32_t id);
     int32_t size();
     
-    /* Debug dumb*/
-    void dumbEntriesOfStreams();
+    /* Debug dump*/
+    void dumpEntriesOfStreams();
 };
 #endif

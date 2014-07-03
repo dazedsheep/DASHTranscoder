@@ -54,9 +54,9 @@ mobileDashEncoder::~mobileDashEncoder()
   
 }
 
-void mobileDashEncoder::dumbToFile(uint8_t *fileName, int32_t fd)
+void mobileDashEncoder::dumpToFile(uint8_t *fileName, int32_t fd)
 {
-    ((transcode *)transcoder)->dumbToFile(fileName, fd);
+    ((transcode *)transcoder)->dumpToFile(fileName, fd);
 }
 
 void mobileDashEncoder::start(const char *fileName)
@@ -65,9 +65,9 @@ void mobileDashEncoder::start(const char *fileName)
     ((transcode *)transcoder)->run();
 }
 
-void mobileDashEncoder::dumb()
+void mobileDashEncoder::dump()
 {
-    ((transcode *)transcoder)->dumb();
+    ((transcode *)transcoder)->dump();
 }
 
 void mobileDashEncoder::test()

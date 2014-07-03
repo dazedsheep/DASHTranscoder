@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="Settings">
+    <ListPreference android:key="pref_resolution" android:title="Resolution"/>
+    <ListPreference android:key="pref_bitrate" android:title="Bitrate"/>
+    <ListPreference android:key="pref_fps" android:title="Frames Per Second"/>
+    <EditTextPreference android:title="Server for uploading live stream" android:key="pref_server" android:defaultValue="http://localhost"/>
+    <ListPreference android:title="Segment Length (s)" android:key="pref_segmentSize"/>
+</PreferenceScreen>

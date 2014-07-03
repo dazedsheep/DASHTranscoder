@@ -34,10 +34,10 @@ public:
     mobileDashEncoder(std::string fileName, const char *baseName, int32_t segmentLength, int32_t fps);
     mobileDashEncoder(int32_t fd, const char *baseName, int32_t segmentLength, int32_t fps);
     ~mobileDashEncoder();
-    void dumbToFile(uint8_t *fileName, int32_t fd);
+    void dumpToFile(uint8_t *fileName, int32_t fd);
     void start(const char *fileName);
     void test();
-    void dumb();
+    void dump();
 };
 
 #endif
